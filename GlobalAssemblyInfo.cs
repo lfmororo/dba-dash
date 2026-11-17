@@ -5,9 +5,9 @@
 using System.Reflection;
 
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Trimble, Inc")]
-[assembly: AssemblyProduct("DBA Dash")]
-[assembly: AssemblyCopyright("Copyright © 2022 Trimble, Inc.")]
+[assembly: AssemblyCompany("Mororo.Tech")]
+[assembly: AssemblyProduct("Mororo DB Monitor (baseado no DBA Dash)")]
+[assembly: AssemblyCopyright("Copyright © 2022 Trimble, Inc. · Adaptações © 2026 Mororo.Tech")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

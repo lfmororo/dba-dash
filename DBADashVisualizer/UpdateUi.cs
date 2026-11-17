@@ -1,4 +1,4 @@
-﻿using DBADashGUI.Viewers;
+﻿﻿﻿using DBADashGUI.Viewers;
 using DBADashSharedGUI;
 using Serilog;
 using System.Net.Http;
@@ -17,7 +17,7 @@ namespace DBADashVisualizer
     internal sealed class UpdateUi
     {
         private const string Website = "https://dbadash.com";
-        private const string Repository = "https://github.com/trimble-oss/dba-dash";
+        private const string Repository = "https://github.com/lfmororo/dba-dash";
 
         private static readonly HttpClient Http = new() { Timeout = TimeSpan.FromSeconds(15) };
 
@@ -65,7 +65,7 @@ namespace DBADashVisualizer
             }
             else
             {
-                getLatest = new ReleaseChecker(Http, "trimble-oss", "dba-dash", "DBADash_Visualizer_").GetLatestAsync;
+                getLatest = new ReleaseChecker(Http, "lfmororo", "dba-dash", "DBADash_Visualizer_").GetLatestAsync;
             }
 
             _service = new UpdateService(store, getLatest, CurrentVersion);

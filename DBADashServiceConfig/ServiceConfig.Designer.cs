@@ -1,4 +1,4 @@
-﻿using DBADashGUI.Theme;
+﻿﻿using DBADashGUI.Theme;
 
 namespace DBADashServiceConfig
 {
@@ -1972,7 +1972,7 @@ namespace DBADashServiceConfig
             Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
             MinimumSize = new System.Drawing.Size(842, 863);
             Name = "ServiceConfig";
-            Text = "DBA Dash Service Config";
+            Text = "Mororo DB Monitor - Service Config";
             FormClosing += ServiceConfig_FromClosing;
             Load += ServiceConfig_Load;
             ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();

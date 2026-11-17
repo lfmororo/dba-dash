@@ -1,4 +1,4 @@
-﻿using System.Runtime.Versioning;
+﻿﻿using System.Runtime.Versioning;
 
 namespace DBADashGUI
 {
@@ -113,7 +113,7 @@ namespace DBADashGUI
             lnkDBADash.Size = new Size(182, 46);
             lnkDBADash.TabIndex = 25;
             lnkDBADash.TabStop = true;
-            lnkDBADash.Text = "DBA Dash";
+            lnkDBADash.Text = "Mororo DB Monitor";
             lnkDBADash.LinkClicked += LnkDBADash_LinkClicked;
             // 
             // lblRepoVersion

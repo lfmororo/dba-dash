@@ -1,3 +1,15 @@
+<p align="center"><img src="Assets/MororoTech_logo.png" alt="Mororó.Tech" width="520"></p>
+
+# Mororo DB Monitor
+
+Versão da **Mororó.Tech** do [DBA Dash](https://github.com/trimble-oss/dba-dash), ferramenta de monitoramento de SQL Server.
+Este repositório é um fork: muda apenas nome, ícone e o endereço de onde a aplicação busca atualizações (os releases deste fork).
+Todo o mérito do software é do projeto original, criado por David Wiseman e mantido pela Trimble, Inc., distribuído sob a [licença MIT](LICENSE), que é mantida aqui sem alterações.
+
+Releases desta versão: https://github.com/lfmororo/dba-dash/releases
+
+---
+
 # DBA Dash - SQL Server Monitoring Tool
 
 ![DBA Dash Performance](Docs/DBADash_LightAndDark.png)

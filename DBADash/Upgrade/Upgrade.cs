@@ -1,4 +1,4 @@
-﻿using Octokit;
+﻿﻿using Octokit;
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -11,7 +11,7 @@ namespace DBADash
 {
     public class Upgrade
     {
-        public const string GITHUB_OWNER = "trimble-oss";
+        public const string GITHUB_OWNER = "lfmororo";
         public const string GITHUB_REPO = "dba-dash";
         public const string GITHUB_APP = "dba-dash";
         public const string GITHUB_BRANCH = "main";

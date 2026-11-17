@@ -1,4 +1,4 @@
-﻿using DBADashGUI.Drives;
+﻿﻿﻿﻿﻿﻿using DBADashGUI.Drives;
 using DBADashGUI.Theme;
 
 namespace DBADashGUI
@@ -1405,7 +1405,7 @@ namespace DBADashGUI
             tabDBADashErrorLog.Padding = new System.Windows.Forms.Padding(1, 2, 1, 2);
             tabDBADashErrorLog.Size = new System.Drawing.Size(1578, 955);
             tabDBADashErrorLog.TabIndex = 11;
-            tabDBADashErrorLog.Text = "DBA Dash ErrorLog";
+            tabDBADashErrorLog.Text = "Mororo DB Monitor ErrorLog";
             tabDBADashErrorLog.UseVisualStyleBackColor = true;
             // 
             // tabCollectionDates
@@ -2092,7 +2092,7 @@ namespace DBADashGUI
             lblDBADash.Name = "lblDBADash";
             lblDBADash.Size = new System.Drawing.Size(1576, 951);
             lblDBADash.TabIndex = 0;
-            lblDBADash.Text = "DBA Dash";
+            lblDBADash.Text = "Mororo DB Monitor";
             lblDBADash.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabIdentityColumns
@@ -2349,7 +2349,7 @@ namespace DBADashGUI
             tabConnecting.Padding = new System.Windows.Forms.Padding(3);
             tabConnecting.Size = new System.Drawing.Size(1578, 955);
             tabConnecting.TabIndex = 54;
-            tabConnecting.Text = "DBA Dash";
+            tabConnecting.Text = "Mororo DB Monitor";
             // 
             // tableLayoutPanel1
             // 
@@ -2471,7 +2471,7 @@ namespace DBADashGUI
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(1572, 30);
             label3.TabIndex = 2;
-            label3.Text = "DBA Dash";
+            label3.Text = "Mororo DB Monitor";
             label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // refresh1
@@ -2728,7 +2728,7 @@ namespace DBADashGUI
             MainMenuStrip = menuStrip1;
             Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             Name = "Main";
-            Text = "DBA Dash";
+            Text = "Mororo DB Monitor";
             WindowState = System.Windows.Forms.FormWindowState.Minimized;
             Load += Main_Load;
             menuStrip1.ResumeLayout(false);

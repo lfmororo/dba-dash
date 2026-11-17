@@ -1,4 +1,4 @@
-﻿global using DBADashSharedGUI;
+﻿﻿global using DBADashSharedGUI;
 using DBADashGUI.Theme;
 using CommandLine;
 using DBADashGUI.Deadlocks;
@@ -155,7 +155,7 @@ namespace DBADashGUI
                {
                    MessageBox.Show(
                        $"File not found:\n{string.Join("\n", missing)}\n\n{CommandLine.Text.HelpText.AutoBuild(result, h => h, e => e)}",
-                       "DBA Dash", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                       "Mororo DB Monitor", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                }
 
                RunViewers(files.Except(missing));

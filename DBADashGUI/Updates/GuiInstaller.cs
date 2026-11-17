@@ -18,8 +18,8 @@ namespace DBADashGUI.Updates
     /// </summary>
     internal static class GuiInstaller
     {
-        private const string Repository = "https://github.com/trimble-oss/dba-dash";
-        private const string AppName = "DBA Dash";
+        private const string Repository = "https://github.com/lfmororo/dba-dash";
+        private const string AppName = "Mororo DB Monitor";
 
         /// <summary>
         /// Set to a folder that holds a built feed - what Scripts/Pack-Installer.ps1 writes - or to the URL of one, to try an
@@ -110,7 +110,7 @@ namespace DBADashGUI.Updates
                     ? $"You are running {running}, and the repository database is on {target}.  The GUI is designed for the " +
                       $"repository version it was released with.\n\nInstall {target}?  DBA Dash restarts to install it." + adminNote
                     : $"You are running {running}.  The GUI is designed for the repository version it was released with.\n\n" +
-                      "DBA Dash restarts to install the update." + adminNote,
+                      "Mororo DB Monitor restarts to install the update." + adminNote,
                 Icon = downgrade ? TaskDialogIcon.Warning : TaskDialogIcon.Information,
                 Buttons = { install, notNow },
                 DefaultButton = install,
@@ -120,7 +120,7 @@ namespace DBADashGUI.Updates
             if (Show(owner, page) != install) return Outcome.Declined;
 
             if (!UpdateDownloadDialog.Download(owner, manager, info, AppName, $"Downloading version {target}",
-                    "DBA Dash restarts when the download is complete.", out var failure))
+                    "Mororo DB Monitor restarts when the download is complete.", out var failure))
             {
                 if (failure == null) return Outcome.Declined; // Cancelled
 
